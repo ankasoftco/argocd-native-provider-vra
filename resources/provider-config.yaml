@@ -4,7 +4,7 @@ kind: ProviderConfig
 metadata:
   name: provider-vra-config-internal
 spec:
-  baseUrl:
+  baseUrl: 'api.mgmt.cloud.vmware.com'
   credentials:
     source: Secret
     secretRef:
