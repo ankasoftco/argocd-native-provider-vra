@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ankasoftco/argocd-native-provider-vra.git
     targetRevision: HEAD
-    path: dev
+    path: resources
   destination:
     server: https://kubernetes.default.svc
     namespace: default
