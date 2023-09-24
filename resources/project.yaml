@@ -1,10 +1,10 @@
 apiVersion: vra.vraprovider.crossplane.io/v1alpha1
 kind: Project
 metadata:
-  name: vra-test-project-crossplane-001
+  name: project-crossplane-001
 spec:
   forProvider:
-    name: vra-test-project-crossplane-001
+    name: project-crossplane-001
     administrators:
       - email: extern.yilmaz_ismail@allianz.de
         type: user
