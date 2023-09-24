@@ -2,7 +2,7 @@
 apiVersion: vraprovider.crossplane.io/v1alpha1
 kind: ProviderConfig
 metadata:
-  name: default
+  name: provider-vra-config-internal
 spec:
   baseUrl:
   credentials:
