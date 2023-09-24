@@ -1,0 +1,13 @@
+---
+apiVersion: vraprovider.crossplane.io/v1alpha1
+kind: ProviderConfig
+metadata:
+  name: default
+spec:
+  baseUrl:
+  credentials:
+    source: Secret
+    secretRef:
+      namespace: crossplane-system
+      name: provider-vra-secret-internal
+      key: credentials
