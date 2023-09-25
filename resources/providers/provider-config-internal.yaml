@@ -1,4 +1,5 @@
 ---
+---
 apiVersion: vraprovider.crossplane.io/v1alpha1
 kind: ProviderConfig
 metadata:
