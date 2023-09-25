@@ -1,4 +1,4 @@
-apiVersion: vraprovider.crossplane.io/v1alpha1
+apiVersion: vra.vraprovider.crossplane.io/v1alpha1
 kind: Project
 metadata:
   name: project-crossplane-001
