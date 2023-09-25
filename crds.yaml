@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: native-provider-vra-application
+  name: native-provider-vra-crds
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/ankasoftco/argocd-native-provider-vra.git
     targetRevision: HEAD
-    path: resources
+    path: crds
   destination:
     server: https://kubernetes.default.svc
     namespace: default

@@ -1,5 +1,5 @@
 ---
-apiVersion: vraprovider.crossplane.io/v1alpha1
+apiVersion: vra.crossplane.io/v1alpha1
 kind: ProviderConfig
 metadata:
   name: provider-vra-config-allianz-dev
