@@ -32,4 +32,4 @@ spec:
     operationTimeout: 300
     machineNamingTemplate: machineNamingTemplate
   providerConfigRef:
-    name: provider-vra-secret-allianz-dev
+    name: provider-vra-config-allianz-dev
