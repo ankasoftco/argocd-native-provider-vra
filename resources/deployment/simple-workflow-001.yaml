@@ -1,12 +1,12 @@
 apiVersion: vra.vraprovider.crossplane.io/v1alpha1
 kind: Deployment
 metadata:
-  name: workflow-test-001
+  name: workflow-test-002
 spec:
   forProvider:
     catalogItemId: cd5c57f5-1cfd-356e-97f3-6e81b0068ced
     projectId: a24427ee-cae9-41c1-abcf-c88d99779e10
-    deploymentName: workflow-test-001
+    deploymentName: workflow-test-002
     reason: Crossplane Test
     inputs:
       input1: test_input_1
