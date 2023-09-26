@@ -1,0 +1,17 @@
+apiVersion: vra.vraprovider.crossplane.io/v1alpha1
+kind: Deployment
+metadata:
+  name: workflow-test-001
+spec:
+  forProvider:
+    catalogItemId: 172d2c58-0eb6-3f4c-96db-5be372f4af53
+    projectRef:
+      name: project-crossplane-001
+    deploymentName: workflow-test-001
+    reason: Crossplane Test
+    inputs:
+      target: test_input_1
+      description: test_input_2
+
+  providerConfigRef:
+    name: provider-vra-config-allianz-dev
