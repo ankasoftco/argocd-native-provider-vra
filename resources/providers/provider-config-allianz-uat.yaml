@@ -1,0 +1,13 @@
+---
+apiVersion: vra.crossplane.io/v1alpha1
+kind: ProviderConfig
+metadata:
+  name: provider-vra-config-allianz-uat
+spec:
+  baseUrl: 'de.api.mgmt.cloud.vmware.com'
+  credentials:
+    source: Secret
+    secretRef:
+      namespace: crossplane-system
+      name: provider-vra-secret-allianz-uat
+      key: credentials
