@@ -1,0 +1,10 @@
+apiVersion: project.vra.crossplane.io/v1alpha1
+kind: Project
+metadata:
+  name: project-crossplane-001
+spec:
+  forProvider:
+    name: project-crossplane-001
+    description: created by crossplane vRA provider
+  providerConfigRef:
+    name: provider-vra-config-allianz-dev
