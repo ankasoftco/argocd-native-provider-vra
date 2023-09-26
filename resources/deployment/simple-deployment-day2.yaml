@@ -1,0 +1,16 @@
+apiVersion: deployment.vra.crossplane.io/v1alpha1
+kind: DeploymentActions
+metadata:
+  name: deployment-action-test-001
+spec:
+  forProvider:
+    actionId: Deployment.EditDeployment
+    deploymentRef:
+      name: workflow-test-001
+    reason: Crossplane Edit Deployment Test
+    inputs:
+      Name: workflow-test-new-001
+      Description: deployment name change
+
+  providerConfigRef:
+    name: provider-vra-config-allianz-dev
