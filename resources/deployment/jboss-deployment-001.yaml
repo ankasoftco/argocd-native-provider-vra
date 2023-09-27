@@ -10,7 +10,7 @@ spec:
     reason: Crossplane Test
     inputs:
       cluster_name: aks-hcapps-we1-d-main
-      owner: amit.mahato@allianz.com
+      Owner: amit.mahato@allianz.com
       app_image_tag: '1.0'
       assignment_group: A.TEC.GLOB.HC.MIDDLEWARE
       costCenter: XXXDEMOXXX
